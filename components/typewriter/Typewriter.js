@@ -8,6 +8,7 @@ export default function Typewriter({textArray}){
     const [text, setText] = useState(textArray[0]);
     useEffect(() => {
         setInterval(() => {
+            if(document.getElementById('type') === null) return;
             document.getElementById('type').classList?.remove('typewriter')
             setText('')
             setTimeout(() => {

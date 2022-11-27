@@ -1,17 +1,22 @@
+#partners{
+    padding-bottom: 0;
+    padding-top: 1rem;
+}
 .hero{
-    height: 88vh;
+    height: 46rem;
     margin-bottom: 3rem;
 }
 
 .hero__head{
     display: flex;
     height: 100%;
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 5rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     gap: 1rem;
 }
 

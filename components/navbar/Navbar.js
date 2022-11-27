@@ -15,25 +15,16 @@ const navigation = [{
     'route': '/',
     'featured': false,
     'icon': 'fa-regular fa-chess-rook',
-    'selected': true
-}, {
-    'name': 'Proyecto',
-    'route': '/proyect',
-    'featured': false,
-    'icon': 'fa-regular fa-gem',
-    'selected': false
 }, {
     'name': 'Sponsors',
     'route': '/sponsors',
     'featured': false,
     'icon': 'fa-regular fa-star',
-    'selected': false
 }, {
     'name': 'Faq',
-    'route': '/faq',
+    'route': '/#faq',
     'featured': false,
     'icon': 'fa-regular fa-face-grin-wide',
-    'selected': false
 }]
 
 export default function Navbar(){

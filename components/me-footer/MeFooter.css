@@ -1,0 +1,73 @@
+.me{
+    padding: 1rem 0;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.me__brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.me__personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.me__text{
+    margin: 0;
+    color: #666;
+    font-size: .8rem;
+}
+
+.me__go{
+    font-weight: 700;
+    color: #333;
+    font-size: .9rem;
+    transition: all .3s ease-in-out;
+}
+
+.me__go:hover{
+    text-decoration: underline;
+}
+
+.me__nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.me__nav li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.me__link{
+    transition: all .3s ease-in-out;
+    font-size: .9rem;
+    color: #333;
+}
+
+.me__link:hover{
+    text-decoration: underline;
+}
+
+.me__bullet{
+    font-weight: bold;
+    color: #333;
+}

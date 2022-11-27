@@ -32,4 +32,5 @@
     margin: 0;
     font-style: italic;
     color: var(--text-color-light);
+    font-size: .8rem;
 }

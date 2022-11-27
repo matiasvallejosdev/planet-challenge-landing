@@ -15,10 +15,9 @@
 
 .social__elem{
     color: var(--text-color-light);
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .social__elem:hover{
     color: var(--brand-color);
-    transform: scale(105%);
 }

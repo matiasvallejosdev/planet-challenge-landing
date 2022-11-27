@@ -1,6 +1,8 @@
 .partners{
     padding-top: .5rem;
     width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .partners__text{
@@ -32,7 +34,6 @@
 }
 
 .partners__img:hover{
-    transform: scale(110%);
     filter: inherit;
     opacity: 90%;
     cursor: pointer;

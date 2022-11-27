@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: 4.75rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: .75rem;
@@ -38,12 +38,13 @@
 }
 
 .header__icon{
-    transition: all .2s ease-in-out;
+    transition: all .45s ease-in-out;
 }
 .header__icon:hover{
+    transform: rotate(-360deg);
     cursor: pointer;
 }
 
-    .header__icon:active{
-        transform: scale(105%);
-    }
+.header__icon:active{
+    transform: scale(105%);
+}

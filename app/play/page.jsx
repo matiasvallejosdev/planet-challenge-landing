@@ -1,4 +1,11 @@
+import './play.css'
+
 export default function PlayPage(){
-    return<>
-    </>
+    return(
+        <div className="container container__play">
+            <div className="play">
+
+            </div>
+        </div>
+    )
 }

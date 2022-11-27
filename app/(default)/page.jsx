@@ -1,21 +1,21 @@
 import './page.css'
-import Social from "../components/social/Social";
+import Social from "../../components/social/Social";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faInstagram, faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faGlobe, faHandHoldingMedical, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import BannerElement from "../components/banner-element/BannerElement";
-import Typewriter from "../components/typewriter/Typewriter";
-import Header from "../components/header/Header";
-import Partners from "../components/partners/Partners";
+import BannerElement from "../../components/banner-element/BannerElement";
+import Typewriter from "../../components/typewriter/Typewriter";
+import Header from "../../components/header/Header";
+import Partners from "../../components/partners/Partners";
+import Faq from "../../components/faq/Faq";
+import About from "../../components/about/About";
 
 library.add(faLinkedin)
 library.add(faInstagram)
 library.add(faFacebook)
 library.add(faGlobe)
-library.add(faHandHoldingMedical)
-library.add(faHeart)
 
 const social = [{'name': 'Instagram',
     'icon': 'fa-brands fa-instagram',
@@ -34,14 +34,14 @@ const social = [{'name': 'Instagram',
 
 const typeWriter = [
     "#1 Videojuego del cambio climatico",
-    "#1 Videojuego educativo ambiental"
+    "#1 Videojuego educativo ambiental",
+    "#1 Videojuego ambiental para niños"
 ]
 
 export default function Home() {
     const date = new Date().getFullYear()
     return (
       <>
-          <Header />
           <div className="hero container">
               <div className="hero__head">
                   <div className="vercel">
@@ -61,13 +61,21 @@ export default function Home() {
                   <div className="foot">
                       <Social social={social}/>
                       <p className="foot__text">© {date} desafioplaneta.com. Todos los derechos reservados.</p>
-                      <Link href='https://github.com/matiasvallejosdev/planet-challenge-game' className='foot__text foot__text--small'>
+                      <Link target="_blank" href='https://github.com/matiasvallejosdev/planet-challenge-game' className='foot__text foot__text--small'>
                           v.1.0.0
                       </Link>
                   </div>
               </div>
           </div>
-          <Partners />
+          <div className="container" id="partners">
+            <Partners />
+          </div>
+          <div className="container" id="about">
+              <About />
+          </div>
+          <section className="section" id="faq">
+            <Faq />
+          </section>
       </>
   )
 }

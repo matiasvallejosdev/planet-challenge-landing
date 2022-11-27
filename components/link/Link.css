@@ -14,7 +14,7 @@
 }
 
 .link__icon{
-    width: 1.15rem;
+    width: 1.3rem;
 }
 
 .link:hover{
@@ -23,7 +23,7 @@
 }
 
 .link--selected{
-    color: #333;
+    color: #000;
 }
 
 .link--featured{
