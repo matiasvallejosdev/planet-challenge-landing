@@ -8,11 +8,11 @@ export default function BannerElement({name, handleClick}){
                 <p className="banner__text">
                     Haz click aqui para iniciar el desafio planeta
                 </p>
-                <button className="banner__button">
-                    <Link href={"/play"}>
+                <Link href={"/play"}>
+                    <button className="banner__button">
                         {name}
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </>
     )
