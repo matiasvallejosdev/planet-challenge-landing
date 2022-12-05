@@ -22,7 +22,7 @@ const navigation = [{
     'icon': 'fa-regular fa-star',
 }, {
     'name': 'Faq',
-    'route': '/#faq',
+    'route': '#faq',
     'featured': false,
     'icon': 'fa-regular fa-face-grin-wide',
 }]
