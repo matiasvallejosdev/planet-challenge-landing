@@ -18,12 +18,10 @@ export default function Marquee({messages}){
         }, interval)
     }, [])
     return (
-        <div className="container">
-            <div className="marquee">
-                <p className="marquee__text">
-                    { marqueeText }
-                </p>
-            </div>
+        <div className="marquee">
+            <p className="marquee__text">
+                { marqueeText }
+            </p>
         </div>
     )
 }

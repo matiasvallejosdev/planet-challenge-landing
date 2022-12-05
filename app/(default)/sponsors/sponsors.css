@@ -1,12 +1,12 @@
 .container__sponsors{
-    padding: 5rem 1rem;
+    padding: 5rem 3rem;
 }
 
 .sponsors{
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
     grid-template-rows:  12rem 12rem 12rem; /*12rem 12rem;*/
-    gap: 2rem;
+    gap: 3rem;
     position: relative;
 }
 
@@ -21,9 +21,9 @@
     background-color: #333;
     height: 100%;
     width: 100%;
-    -moz-box-shadow: 0 0 8px #9a9a9a;
-    -webkit-box-shadow: 0 0 8px #9a9a9a;
-    box-shadow: 0 0 8px #9a9a9a;
+    -moz-box-shadow: 0 0 12px #9a9a9a;
+    -webkit-box-shadow: 0 0 12px #9a9a9a;
+    box-shadow: 0 0 12px #9a9a9a;
     transition: all .3s ease-in-out;
 }
 
@@ -78,21 +78,24 @@
     grid-row: 3/5;
 }
 
+.sponsors__head{
+    grid-column: 1/3;
+    width: 100%;
+    grid-row: 1/2;
+}
+
 .sponsors__title{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
     font-weight: 900;
     color: var(--brand-color);
     letter-spacing: -3px;
+    width: 100%;
+    margin-top: 0;
 }
 
 .sponsors__description{
-    grid-column: 1/2;
-    grid-row: 1/2;
     margin: 0;
-    padding-top: 6.5rem;
+    padding-top: 1.5rem;
     font-size: 1.1rem;
     color: #777;
+    width: 44%;
 }

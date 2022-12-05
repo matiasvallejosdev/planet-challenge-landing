@@ -11,7 +11,9 @@ const messages = [
 
 export default function Layout({children}){
     return<>
-        <Marquee messages={messages}/>
-        {children}
+        <div className="container">
+            <Marquee messages={messages}/>
+            {children}
+        </div>
     </>
 }

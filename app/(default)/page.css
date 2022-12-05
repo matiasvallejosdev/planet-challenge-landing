@@ -3,7 +3,7 @@
     padding-top: 1rem;
 }
 .hero{
-    height: 46rem;
+    height: 55rem;
     margin-bottom: 3rem;
 }
 
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 6rem;
+    padding-top: 11rem;
     padding-left: 1rem;
     padding-right: 1rem;
     gap: 1rem;
