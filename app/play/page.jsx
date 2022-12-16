@@ -1,18 +1,11 @@
 import './play.css'
 import Image from "next/image";
+import Building from "../../components/building/Building";
 
 export default function PlayPage(){
     return(
         <div className="container container__play">
-            <div className="build">
-                <Image width="300" height="300" src="/images/game/character-sleep.png" alt="Building" className="build__logo" />
-                <h3 className="build__title">¡Bajo construcción!</h3>
-                <p className="build__description">Nuestro videojuego está en construcción, estamos
-                    trabajando muy duro para brindarle la mejor experiencia
-                    con este.
-                </p>
-                <button className="build__button"><a href="/">Volver al inicio</a></button>
-            </div>
+            <Building />
         </div>
     )
 }

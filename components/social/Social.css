@@ -19,5 +19,6 @@
 }
 
 .social__elem:hover{
+    transform: translateY(-0.2rem);
     color: var(--brand-color);
 }

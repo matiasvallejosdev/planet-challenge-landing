@@ -3,21 +3,30 @@
     padding-top: 1rem;
 }
 .hero{
-    height: 55rem;
+    height: 89vh;
     margin-bottom: 3rem;
 }
 
 .hero__head{
-    display: flex;
+    display: grid;
     height: 100%;
     width: 100%;
+    grid-template-columns: 45%;
     align-items: center;
+    align-self: center;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 11rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    grid-template-rows: 1fr 10%;
     gap: 1rem;
+}
+
+.hero_title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
 }
 
 .vercel span{
@@ -29,6 +38,7 @@
 }
 
 .vercel h1{
+    text-align: center;
     font-size: 7rem;
     letter-spacing: -0.05rem;
     font-weight: 700;
@@ -44,14 +54,11 @@
 }
 
 .foot{
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    align-self: center;
-    justify-self: center;
+    justify-content: center;
     gap: .25rem;
 }
 

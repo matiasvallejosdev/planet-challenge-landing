@@ -44,20 +44,22 @@ export default function Home() {
       <>
           <div className="hero container">
               <div className="hero__head">
-                  <div className="vercel">
-                      <h1 style= {{
-                          "--color": "var(--brand-color)"
-                      }}>
-                          Desafio
-                      </h1>
-                      <h1 style= {{
-                          "--color": "var(--brand-alternative-color)"
-                      }}>
-                          Planeta
-                      </h1>
+                  <div className="hero__title">
+                      <div className="vercel">
+                          <h1 style= {{
+                              "--color": "var(--brand-color)"
+                          }}>
+                              Desafio
+                          </h1>
+                          <h1 style= {{
+                              "--color": "var(--brand-alternative-color)"
+                          }}>
+                              Planeta
+                          </h1>
+                      </div>
+                      <Typewriter textArray={typeWriter}/>
+                      <BannerElement name="¡Empezar a jugar!" />
                   </div>
-                  <Typewriter textArray={typeWriter}/>
-                  <BannerElement name="¡Empezar a jugar!" />
                   <div className="foot">
                       <Social social={social}/>
                       <p className="foot__text">© {date} desafioplaneta.com. Todos los derechos reservados.</p>

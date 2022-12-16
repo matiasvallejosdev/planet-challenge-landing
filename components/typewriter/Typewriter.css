@@ -1,5 +1,8 @@
 .type{
-    height: 2.4rem
+    height: 2.4rem;
+    width: 30.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .typewriter h4 {
